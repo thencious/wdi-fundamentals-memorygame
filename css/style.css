@@ -4,7 +4,7 @@
 }
 
 h1 {
-	background-color: #F15B31;
+	background-color: #0D4D4D;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     color: white;
@@ -26,33 +26,24 @@ a {
 }
 
 a:hover {
-	background-color: #22C8D5;
-	border-bottom: 2px solid orange;
+	background-color: #EEE;
+	border-bottom: 2px solid #98B823;
+	color: #98B823;
 }
 
 nav {
 	padding: 20px;
-	background-color: #00A6B3;
-}
-
-h2 {
-	font-family: "Raleway", sans-serif;
-    color: #0D2C40;
-    letter-spacing: 1px;
-    font-weight: 600;
-    font-size: 20px;
-    text-transform: uppercase;
-    margin: 30px;
+	background-color: #98B823;
 }
 
 p {
 	font-family: "Droid Serif", serif;
 	line-height: 26px;
-	font-size: 18px;
+	font-size: 17px;
 	text-align: center;
-	margin: 0 auto;
+	margin: 0px auto 20px auto;
 	max-width: 50em;
-	font-weight: 600;
+	color: #0D4D4D;
 }
 
 body {
@@ -60,7 +51,7 @@ body {
 }
 
 div {
-	margin: 70px auto 40px auto;
+	margin: 40px auto 40px auto;
 }
 
 img {
@@ -73,12 +64,13 @@ img {
 	letter-spacing: .08em;
 	font-weight: 500;
 	padding: 0 20px;
+	font-family: "Droid Serif", serif;
 }
 
 .name {
-	color: #F15B31;
+	color: #98B823;
 	font-weight: 700;
-
+	margin: 0 4px;
 }
 
 #f_one {
@@ -91,9 +83,9 @@ img {
 
 footer{
 	padding: 20px;
-	background-color: #0D2C40;
+	background-color: #0D4D4D;
 	text-transform: uppercase;
-	font-family: "Droid Serif", serif;
+	font-family: "Raleway" serif;
 }
 
 .clearfix:after {
@@ -103,4 +95,14 @@ footer{
   clear: both;
   height: 0;
   font-size: 0;
+}
+
+button{
+	background-color: white;
+	font-family: "Droid Serif", serif;
+	color: #EEE;
+	border: 0;
+	font-size: 50px;
+	margin: 100px auto;
+	text-transform: uppercase;
 }
